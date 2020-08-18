@@ -1,1 +1,207 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Chetan Alla</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Chetan Alla</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#work-experience">Work Experience</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#projects">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#education">Education</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div class="avatar" style="background: url(assets/img/tech/pfp.jpg) center / contain;"></div>
+                <div class="about-me">
+                    <p id="work-experience">Hello! I am <strong>Chetan Alla</strong>. I am a freshman studying math and computer science at UMD.</p><a class="btn btn-outline-primary" role="button" href="https://www.linkedin.com/in/chetanalla/" target="_blank">Linkedln</a>
+                    <a
+                        class="btn btn-outline-primary" role="button" style="margin: 10px;" href="https://github.com/allachetan" target="_blank">GitHub</a><a class="btn btn-outline-primary" role="button" style="margin: 0;" href="assets/Resume.pdf" download="ChetanAllaResume" target="_blank">Resume</a></div>
+            </div>
+            <section class="portfolio-block cv">
+                <div class="container">
+                    <div class="work-experience group">
+                        <div class="heading">
+                            <h2 class="text-center">Relevant Work Experience</h2>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Software Engineer Intern</h3>
+                                    <h4 class="organization">Seygen Inc</h4>
+                                </div>
+                                <div class="col-md-6"><span class="period">06/2019 - 08/2019</span></div>
+                            </div>
+                            <p class="text-muted">I implemented user authentication and SSL for existing Segyen projects. I also deployed web apps onto tomcat servers.</p>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col">
+                                    <h3>Software Engineer Intern</h3>
+                                    <h4 class="organization">Seygen Inc</h4>
+                                </div>
+                                <div class="col-md-6"><span class="period">06/2018 - 06/2018</span></div>
+                            </div>
+                            <p class="text-muted">I developed a web based asset management system for Seygen. It was created in Java with using Spring Boot for the rest api and Hibernate to connect to a mysql database.</p>
+                        </div>
+                    </div>
+                    <div id="projects" class="work-experience group">
+                        <div class="heading">
+                            <h2 class="text-center">programming projects</h2>
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                                    <h3>Project Manager -&nbsp;<a class="text-dark" href="https://github.com/allachetan/Project-Manager" target="_blank"><i class="icon ion-social-github"></i></a></h3>
+                                    <p>Web app to manage and plan a project. It allows users to interactively break a project into parts and create tasks to complete. Developed using: Angular, Spring,&nbsp; and AWS EB &amp; RDS.&nbsp; Secured with SSL and
+                                        JWT's. Demo by clicking the image on the right!</p>
+                                </div>
+                                <div class="col-md-12 col-lg-5">
+                                    <div class="portfolio-laptop-mockup">
+                                        <a href="https://chetanalla.com/Project-Manager/" target="_blank">
+                                            <div class="screen">
+                                                <div class="screen-content" style="background: url(assets/img/tech/pm.png) center / contain repeat;"></div>
+                                            </div>
+                                        </a>
+                                        <div class="keyboard"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-lg-5">
+                                    <div class="portfolio-laptop-mockup">
+                                        <a href="https://github.com/allachetan/ETS2AI" target="_blank">
+                                            <div class="screen">
+                                                <div class="screen-content" style="background: url(assets/img/tech/ETS2.png) center / contain repeat;"></div>
+                                            </div>
+                                        </a>
+                                        <div class="keyboard"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                                    <h3>ETS2 Auto Steer AI -&nbsp;<a class="text-dark" href="https://github.com/allachetan/ETS2AI" target="_blank"><i class="icon ion-social-github"></i></a></h3>
+                                    <p>Neural network created using a combination of convolutional, max pooling, flatten, and dense layers that provides joystick-x inputs to keep the truck in its lane when driving. This is simulated in the game Euro Truck
+                                        Simulator 2. It takes in a grayscale image of the road view as its input.</p>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                                    <h3>USB &amp; GDrive Sync -&nbsp;<a class="text-dark" href="https://github.com/allachetan/Google-Drive-and-USB-Sync" target="_blank"><i class="icon ion-social-github"></i></a></h3>
+                                    <p>Java app that makes sure a usb is in sync with google drive. It compares files from a usb and google drive directory and downloads any files not on the usb.</p>
+                                </div>
+                                <div class="col-md-12 col-lg-5">
+                                    <div class="portfolio-laptop-mockup">
+                                        <a target="_blank" href="https://github.com/allachetan/Google-Drive-and-USB-Sync">
+                                            <div class="screen">
+                                                <div class="screen-content" style="background: url(assets/img/tech/usbdrive.png) center / contain;"></div>
+                                            </div>
+                                        </a>
+                                        <div class="keyboard"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p id="education">View more on my GitHub -&nbsp;<a href="https://github.com/allachetan" style="color: rgb(0,0,0);" target="_blank"><i class="icon ion-social-github"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="education group">
+                        <div class="heading">
+                            <h2 class="text-center">Education</h2>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Centreville Highschool</h3>
+                                </div>
+                                <div class="col"><span class="period">2016 - 2020</span></div>
+                            </div>
+                            <p class="text-muted">Clubs: ACSL Club, Cyberpatriot club, Robotics Club, Centreville Red Cross, Centreville Track and Field, Ultimate Frisbee Club, Future Business Leaders of America, Centreville Amnesty Club.</p>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>University of Maryland</h3>
+                                    <h4 class="organization">CS &amp; Math</h4>
+                                </div>
+                                <div class="col-md-6"><span class="period">2020 - Present</span></div>
+                            </div>
+                            <p class="text-muted">GPA: N/A (semester starts Aug 31)</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="row" id="contact">
+                            <div class="col-md-6">
+                                <div class="skills portfolio-info-card">
+                                    <h2>Skills</h2>
+                                    <h3>Java, C++, Python</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                    </div>
+                                    <h3>Angular</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                    </div>
+                                    <h3>Spring, Hibernate</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                    </div>
+                                    <h3>Keras, Tensorflow</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-info portfolio-info-card">
+                                    <h2>Contact Info</h2>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-social-linkedin icon"></i></div>
+                                        <div class="col-9"><a href="https://www.linkedin.com/in/chetanalla/" target="_blank">linkedin.com/in/chetanalla</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-social-github icon"></i></div>
+                                        <div class="col-9"><a href="https://github.com/allachetan">github.com/allachetan</a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
+                                        <div class="col-9"><span>703-832-5760</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-1"><i class="icon ion-at icon"></i></div>
+                                        <div class="col-9"><span>allachetan@yahoo.com</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="social-icons"><a href="https://github.com/allachetan" target="_blank"><i class="icon ion-social-github"></i></a><a target="_blank" href="https://www.linkedin.com/in/chetanalla/"><i class="icon ion-social-linkedin"></i></a></div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
